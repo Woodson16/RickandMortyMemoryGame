@@ -33,8 +33,7 @@ return;
         secondCard = this;
     console.log('secondCard',secondCard);
     checkForMatch();
-    }
-    
+    } 
 }
 function checkForMatch(){
 firstCardData=firstCard.getAttribute('dataName')
