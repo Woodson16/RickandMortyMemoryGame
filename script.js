@@ -44,17 +44,20 @@ secondCardData=secondCard.getAttribute('dataName')
     isMatch ? disableCards():unFlipCards();
     turn = 0
     console.log('resetTurn',turn)
-
+    hasFlippedCard = false; 
   }   
 function disableCards(){
     totalMatches++
+    
+    console.log('totalMatches=',totalMatches);
+    firstCard.removeEventListener('click', flipCard);
+    secondCard.removeEventListener('click', flipCard);  
     if (totalMatches===6){
         alert('You Win')
     }
-    console.log('totalMatches=',totalMatches);
-    firstCard.removeEventListener('click', flipCard);
-    secondCard.removeEventListener('click', flipCard);   
+    
 }
+
 
 function unFlipCards(){
     lockBoard = true;
