@@ -1,0 +1,37 @@
+#message{
+text-align:center;  
+font-size: 50px;
+}
+
+body{
+background-image: url(https://www.nme.com/wp-content/uploads/2021/03/Rick-and-Morty.jpg);
+}
+
+h2{
+font-family: 'Creepster', cursive;
+text-align: center;
+font-size: 50px;
+}
+
+button{
+    font-size: 40px;
+    padding:10px;
+    border-radius: 10px;
+    margin:20px;
+}
+#container{
+    text-align: center;
+}
+
+p{
+font-family: 'Creepster', cursive;
+text-align: center; 
+font-size: 30px; 
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Creepster', cursive;
+
+}
